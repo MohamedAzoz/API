@@ -1,24 +1,12 @@
 {
-  "name": "server",
+  "name": "fake-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Fake API using JSON Server on Railway",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json --port 5000"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "��#\u0000 \u0000A\u0000P\u0000I\u0000\r\u0000 \u0000",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MohamedAzoz/API.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/MohamedAzoz/API/issues"
-  },
-  "homepage": "https://github.com/MohamedAzoz/API#readme"
+    "json-server": "^0.17.0"
+  }
 }
